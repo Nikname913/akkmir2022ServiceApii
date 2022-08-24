@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>	
+	<warehouses>
+		<warehouse>
+			<id>ef7f622d-b37b-11e9-80ef-00155d0bfb06</id>
+			<region_id>dbe5f5ea-b75a-11e9-80ef-00155d0bfb06</region_id>
+			<name>300 Победы 53</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>cb84805f-0ac3-11ea-8121-00155d0bfb05</id>
+			<region_id>93827ac0-1cb6-11ea-812d-00155d0bfb05</region_id>
+			<name>400 Володарского 105 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>b4bae7b2-abbd-11ea-8153-00155d0bfb06</id>
+			<region_id>f619a33c-ba82-11ea-8154-00155d0bfb06</region_id>
+			<name>501 Ремезова 115а Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>d66afd4f-c23b-11e0-b186-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>001 Автомагистральная 33а Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>0230b0c0-4658-11df-a6ac-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>018 Аппаратная 3 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>40b121a8-0dba-11e5-be12-0025909bb815</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>008 Краснолесья 93 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>0230b0c2-4658-11df-a6ac-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>003 Крауля 8 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>0230b0c3-4658-11df-a6ac-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>004 Куйбышева 121 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>a3bf5753-65cd-11e2-844c-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>005 Сибирский тракт 24/2 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>ec891c64-7535-11e0-be8d-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>006 Сулимова 59 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>0230b0c4-4658-11df-a6ac-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>Ткачей</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>40e68500-0e95-11e0-93a9-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>007 Шефская 20 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>54a33bd4-0a62-11e8-8dcf-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>009 Восточная 5в Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>9d313b4c-21d4-11e8-8dcf-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>010 Монтажников 16 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>4fdabb8b-58c2-11e8-9275-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>011 Щербакова 216 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>4d06f494-8bf6-11e8-87e6-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>012 Березовский тракт 2г Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>4ba4f9f4-aab4-11e8-98a4-0015179b1da1</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>014 Патриса Лумумбы 4в Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>c1a1d5c5-f2f7-11e8-80cf-00155d0bfb06</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>016 Челюскинцев 11а Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>74f00c19-8382-11e9-80e0-00155d0bfb06</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>024 Московская 283 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>fda57ae6-f9a8-11ea-815c-00155d0bfb06</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>025 Крестинского, 46 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>a12f1205-69e1-11eb-8162-00155d0bfb06</id>
+			<region_id>f662faa5-029b-11e8-8dcf-0015179b1da1</region_id>
+			<name>026 Раевского, 9/1 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>0ecf6ab1-5b6e-11e1-bb2b-0015179b1da1</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>101 Авторемонтная 1 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>14bac2e9-4da5-11e3-acd6-0015179b1da1</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>109 Интернет-магазин Тюмень Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>97774120-4d43-11e5-baa5-0025909bb814</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>100 Пермякова 83 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>305a2015-92b4-11e2-9c71-0015179b1da1</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>103 Широтная 27 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>4919ac9f-7755-11e7-b304-0015179b1da1</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>102 Щербакова 90 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>b53f28d2-f2f5-11e8-80cf-00155d0bfb06</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>105 Широтная 177 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>3bd31aec-f2f7-11e8-80cf-00155d0bfb06</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>104 Западносибирская 37 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>2f83a665-3029-11e9-80d4-00155d0bfb06</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>107 широтная 6\1</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>37c0fb38-85bc-11e9-80e0-00155d0bfb06</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>110 Московский Тракт 117а к1/1 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>043dce70-466f-11ea-8138-00155d0bfb05</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>112 Харьковская 10 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>10b53ca9-1734-11ea-812d-00155d0bfb05</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>111 Энергетиков 66 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>40ef6c4e-dfc2-11eb-8168-00155d0bfb06</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>113 50 лет Октября 1/1 Склад</name>
+			<service>0</service>
+		</warehouse>
+		<warehouse>
+			<id>8b4934e1-2b3d-11ec-816b-00155d0bfb05</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>114 Домостроителей 23 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>e38e8885-4e8d-11ec-8171-00155d0bfb05</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>115 Ямская 122/1</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>5298267d-5666-11ec-8171-00155d0bfb05</id>
+			<region_id>15749eba-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>117 Пермякова 2А/2 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>b964e58a-bfb4-11e7-a547-0015179b1da1</id>
+			<region_id>31f07310-029c-11e8-8dcf-0015179b1da1</region_id>
+			<name>200 Кирова 49 Склад</name>
+			<service>1</service>
+		</warehouse>
+		<warehouse>
+			<id>bf36af8c-de7c-11e4-8da3-0025909bb815</id>
+			<region_id>e18a2cb9-04d8-11e8-8dcf-0015179b1da1</region_id>
+			<name>023 Полевской тракт 19 км Склад</name>
+			<service>0</service>
+		</warehouse>
+	</warehouses>
+</data>
