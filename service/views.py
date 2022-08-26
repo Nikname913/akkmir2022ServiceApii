@@ -2,6 +2,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 
 import xml.etree.ElementTree as ET 
+import requests
 import xmltodict 
 import json 
 import os
@@ -27,6 +28,14 @@ def writeXmlData(request):
     file.close() 
 
     return HttpResponse(200)
+
+def getUslugiList(request):
+
+  file = open(pwd + '/static/data/services.json')
+  content = file.read()
+  file.close()
+
+  return HttpResponse(content)
 
 def getServicesList(request):
 
@@ -87,11 +96,6 @@ def newWriting(request):
     time     = reqDataDeserialize['time']
     workType = reqDataDeserialize['workType']
 
-    auto     = reqDataDeserialize['auto']
-    model    = reqDataDeserialize['model']
-    email    = reqDataDeserialize['email']
-    comment  = reqDataDeserialize['comment']
-
     pack = dict()
 
     pack['client'] = user
@@ -100,7 +104,25 @@ def newWriting(request):
     pack['workType'] = workType
     pack['service'] = service
 
-    return HttpResponse(200)
+    tCHAT = '-614796063'
+    tNik = '789039165'
+    tMasha = '2057594093'
+    
+    USERS = [ tCHAT, tNik, tMasha ]
+    USER = USERS[1]
+    ABOUT = 'Пользователь: ' + user + '. ID сервисцетра: ' + service + '. Номер: ' + number + '. Проводимые работы: ' + workType + '. Время: ' + date + ' ** ' + time
+    URL = "https://api.telegram.org/bot5576870672:AAFR3ZYE4UtbjD1WVd3L6Zy2j0thCCz5pPk/sendMessage?chat_id=" + USER + "&text=" + ABOUT
+    
+    req = requests.get(URL)
+    return HttpResponse(req.status_code)
+
+def getWritingsList(request):
+
+  file = open(pwd + '/static/data/writings.json')
+  content = file.read()
+  file.close()
+
+  return HttpResponse(content)
         
 def pingMethod(request):
 
