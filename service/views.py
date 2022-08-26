@@ -1,5 +1,3 @@
-from dataclasses import dataclass
-from time import time
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 
@@ -24,7 +22,7 @@ def writeXmlData(request):
     jsonParse = xmltodict.parse(xml)
     jsonText = json.dumps(jsonParse)
 
-    file = open(pwd + '/static/data/akkmir.json', 'w')
+    file = open(pwd + '/static/data/warehouses.json', 'w')
     file.write(jsonText)
     file.close() 
 
@@ -32,11 +30,21 @@ def writeXmlData(request):
 
 def getServicesList(request):
 
-  file = open(pwd + '/static/data/akkmir.json')
+  file = open(pwd + '/static/data/warehouses.json')
   content = file.read()
   file.close()
 
   return HttpResponse(content)
+
+def getServicesListOne(request):
+
+  if request.method == 'POST':
+
+    file = open(pwd + '/static/data/warehouses.json')
+    content = file.read()
+    file.close()
+
+    return HttpResponse(content)
 
 @csrf_exempt
 def newWriting(request):
@@ -64,6 +72,10 @@ def newWriting(request):
     writingsListDeserialize['data'].append(reqDataDeserialize)
     newWritingList = json.dumps(writingsListDeserialize)
 
+    # валидация будет происходить на клиенте
+    # в момент формирования пакета заявки и перед
+    # отправкой его непосредственно на сервер
+
     writingsList = open(pwd + '/static/data/writings.json', 'w')
     writingsList.write(newWritingList)
     writingsList.close()
@@ -80,16 +92,24 @@ def newWriting(request):
     email    = reqDataDeserialize['email']
     comment  = reqDataDeserialize['comment']
 
+    pack = dict()
+
+    pack['client'] = user
+    pack['number'] = number
+    pack['time'] = date + ' ** ' + time
+    pack['workType'] = workType
+    pack['service'] = service
+
     return HttpResponse(200)
         
-def exampleMethod(request):
+def pingMethod(request):
 
   jsonClients = ''
 
   xmlTestParse = ET.parse(pwd + '/static/data/akkmir.xml')
   xmlTestRoot = xmlTestParse.getroot()
 
-  with open(pwd + '/static/data/akkmir.xml') as fd: 
+  with open(pwd + '/static/data/akkmir.xml', encoding="utf-8") as fd: 
     
     jsonText = xmltodict.parse(fd.read())
     jsonClients = json.dumps(jsonText)
